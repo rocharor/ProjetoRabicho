@@ -1,0 +1,30 @@
+@import "global.styl";
+
+.menu
+    background-color: #282c34;
+    width: 100%;
+    height: 70px;
+    padding: 3px;
+    position: relative;
+    .topo_esquerdo
+        float: left;
+        .img_logo
+            width: 150px;
+            max-height: 62px;
+            min-height: 62px;
+        .links
+            display: inline;
+            .active
+                color: #eee;
+                font-style: italic;
+        .links a
+            margin: 10px;
+            font-weight: bold;
+            text-decoration: none;
+            color: $color5;
+        .links a:hover
+            color: $color6;
+    .topo_direito
+        float: right;
+        padding-right: 5px;
+        margin-top: 15px;
