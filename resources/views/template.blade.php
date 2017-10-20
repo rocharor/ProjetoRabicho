@@ -24,27 +24,31 @@
 		<link rel="stylesheet" href="/AdminLTE/dist/css/AdminLTE.min.css">
 		<link rel="stylesheet" href="/AdminLTE/dist/css/skins/_all-skins.min.css">
 
+        <link rel="stylesheet" href="/css/style.css" type="text/css" charset="utf-8" />
+
         <!-- jQuery, Notify, Global-->
         <script src="/node_modules/jquery/dist/jquery.min.js"></script>
         <script src="/node_modules/bootstrap-notify/bootstrap-notify.min.js"></script>
         <script src="/js/global.js"></script>
     </head>
     <body>
-		@if (session('sucesso')) <script>alertaPagina('{{ session('sucesso') }}', 'success');</script> @endif
-	    @if (session('erro')) <script>alertaPagina('{{ session('erro') }}', 'danger');</script> @endif
+        <div id="wrapper">
+            @if (session('sucesso')) <script>alertaPagina('{{ session('sucesso') }}', 'success');</script> @endif
+            @if (session('erro')) <script>alertaPagina('{{ session('erro') }}', 'danger');</script> @endif
 
-        <div>
-        	@include('top')
-        </div>
+            <div id="header">
+                @include('top')
+            </div>
 
-        <div class="container" style="border:solid 0px;">
-            @yield('content')
-        </div>
+            <div class="container" style="border:solid 0px;">
+                @yield('content')
+            </div>
 
-		<br /><br />
+            <br /><br />
 
-        <div style="position:static; bottom:0px; border:solid 1px; width:100%; text-align:center;">
-        	@include('footer')
+            <div style="position:static; bottom:0px; border:solid 1px; width:100%; text-align:center;">
+                @include('footer')
+            </div>
         </div>
     </body>
 </html>
