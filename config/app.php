@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Estrutura Laravel'),
+    'name' => env('APP_NAME', 'Projeto Rabicho'),
 
     /*
     |--------------------------------------------------------------------------
