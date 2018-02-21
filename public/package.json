@@ -1,5 +1,5 @@
 {
-  "name": "Estrutura-Laravel",
+  "name": "Projeto-Rabicho",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -22,6 +22,8 @@
   },
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-stylus": "^2.5.0"
+    "gulp-concat": "^2.6.0",
+    "gulp-stylus": "^2.5.0",
+    "gulp-uglify": "^3.0.0"
   }
 }

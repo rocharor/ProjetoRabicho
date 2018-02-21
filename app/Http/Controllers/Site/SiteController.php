@@ -12,7 +12,8 @@ class SiteController extends Controller
 
     public function index()
     {
-        return view('site/home',[]);
+        return view('site/index',[]);
+        // return view('site/home',[]);
     }
 
     /**
