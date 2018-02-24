@@ -23,8 +23,8 @@
     </head>
     <body>
         <main id="wrapper">
-			<header>
-	        	{{-- @include('top') --}}
+			<header style="position: absolute; width: 100%; height: 80px; background-color:#282c34; color: #fff">
+	        	@include('top')
 	        </header>
 
 	        <section class="container">

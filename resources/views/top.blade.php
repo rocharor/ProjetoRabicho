@@ -1,4 +1,6 @@
-<h1>DogCare</h1>
+<h1 align='center'>PROJETO RABICHO</h1>
+
+{{-- <h1>DogCare</h1>
 <div id="nav-top">
     <ul>
         <li id="tab-faq">
@@ -16,4 +18,4 @@
         <li><a href="">Services</a></li>
         <li><a href="">Gallery</a></li>
     </ul>
-</div>
+</div> --}}
