@@ -16,6 +16,13 @@ class SiteController extends Controller
         // return view('site/home',[]);
     }
 
+    public function getdataPets()
+    {
+      $data = [];
+
+      return view('site/listPets',[]);
+    }
+
     /**
      * Upload de Documentos (Storage)
      * @param  Request $request [description]

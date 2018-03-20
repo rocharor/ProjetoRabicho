@@ -64,7 +64,7 @@
     </style>
     <div class="box">
         <div class="logo"></div>
-        <div class="links link1" align='center'><a href="#">Adote um Pet</a></div>
+        <div class="links link1" align='center'><a href="{{ Route('site.adote') }}">Adote um Pet</a></div>
         <div class="links link2" align='center'><a href="#">Galeria</a></div>
         <div class="links link3" align='center'><a href="#">Remédios</a></div>
         <div class="links link4" align='center'><a href="#">Contato</a></div>
